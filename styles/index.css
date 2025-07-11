@@ -28,12 +28,13 @@ nav ul li {
 
 /*shared styles*/
 .btn-primary {
-    background-color: #4E47FF;
+    background-color: #0d04bb;
     font-size: 15px;
     color: white;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /*banner styles*/
@@ -196,4 +197,82 @@ nav ul li {
 
     .nav-links a:hover {
       color: #4f46e5;
+    }
+     {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9fafb;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .review-section {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      width: 300px;
+    }
+
+    .stars {
+      color: #fbbf24; /* gold-like color */
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .reviewer img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .reviewer-info {
+      font-size: 13px;
+    }
+
+    .reviewer-info strong {
+      display: block;
+      color: #333;
+    }
+
+    .reviewer-info span {
+      color: #888;
     }
